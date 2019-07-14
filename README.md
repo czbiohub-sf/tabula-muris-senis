@@ -4,7 +4,7 @@ The [**Tabula Muris Senis**](https://tabula-muris-senis.ds.czbiohub.org/) is a c
 
 <!---For a quick overview checkout the lightining talk slides @aopisco presented at [SciPy2019]()--->
 
-This is a resource for the community! The repo is being continously updated with the code used for the publication - let us know your priorities and we will prioritze that code release!
+**This is a resource for the community!** The repo is being continously updated with the code used for the publication - let us know your priorities and we will prioritze that code release!
 
 ## Data access
 
