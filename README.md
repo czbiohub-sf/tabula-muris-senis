@@ -11,8 +11,8 @@ For a quick overview checkout the lightining talk slides presented at [SciPy2019
 ### Raw data
 Since July 2019, Tabula Muris Senis data have been made available to all users free of charge. [AWS has made the data freely available on Amazon S3](https://s3.console.aws.amazon.com/s3/buckets/czb-tabula-muris-senis/) so that anyone can download the resource to perform analysis and advance medical discovery without needing to worry about the cost of storing Tabula Muris Senis data or the time required to download it.
 
-### Processed data to use with scanpy
-Please download the h5ad files from here: https://figshare.com/articles/Processed_files_to_use_with_scanpy_/8273102
+### Processed data
+Our ready-to-use with [scanpy](https://scanpy.readthedocs.io) data is available from figshare: https://figshare.com/projects/Tabula_Muris_Senis/64982
 
 ### Online data browsing
 Online versions of the data are available at the [Tabula Muris Senis](tabula-muris-senis.ds.czbiohub.org) portal and thanks to [Max Haeussler](https://github.com/maximilianh) and [Matt Speir](https://github.com/matthewspeir) at the [UCSC Cell Browser](https://tabula-maris-senis.cells.ucsc.edu) 
