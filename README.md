@@ -15,7 +15,7 @@ Since July 2019, Tabula Muris Senis data have been made available to all users f
 Please download the h5ad files from here: https://figshare.com/articles/Processed_files_to_use_with_scanpy_/8273102
 
 ### Online data browsing
-Online versions of the data are available at the [Tabula Muris Senis](tabula-muris-senis.ds.czbiohub.org) portal and thanks to @maximilianh and @matthewspeir at the [UCSC Cell Browser](https://tabula-maris-senis.cells.ucsc.edu) 
+Online versions of the data are available at the [Tabula Muris Senis](tabula-muris-senis.ds.czbiohub.org) portal and thanks to [Max Haeussler](https://github.com/maximilianh) and [Matt Speir](https://github.com/matthewspeir) at the [UCSC Cell Browser](https://tabula-maris-senis.cells.ucsc.edu) 
 
 
 <!--- ## How to cite this dataset--->
