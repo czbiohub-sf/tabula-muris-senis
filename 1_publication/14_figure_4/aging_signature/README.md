@@ -13,7 +13,8 @@ Code:
 
 Processed data: 
 - The processed FACS data: `tms_gene_data/facs_filtered.h5ad` 
-- The processed droplet data: `tms_gene_data/droplet_filtered.h5ad`. 
+- The processed droplet data: `tms_gene_data/droplet_filtered.h5ad`
+- Also bulk data: `tms_gene_data/190304_maca_bulk.h5ad`
 
 ## Differential gene expression (DGE) testing
 
@@ -29,5 +30,10 @@ DGE testing result:
 
 ## Downstream analysis
 
+Code: 
 - Tissue-cell level downstream analysis: `downstream_tissue_cell.ipynb`
 - Tissue level downstream analysis: `downstream_tissue.ipynb`
+
+Data: 
+- The annotation data are in `tms_gene_data/annotation_data`
+- The results are in `tms_gene_data/results`
