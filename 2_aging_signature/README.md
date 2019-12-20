@@ -4,7 +4,7 @@ We used the **Tabula Muris Senis** dataset to perform a systematic gene-wise stu
 
 ## Data access
 
-The data can be downloaded at [tms_gene_data](). To run each notebook, please specify the `data_path` variable to be the path of the `tms_gene_data` folder. 
+The data can be downloaded at [tms_gene_data](https://figshare.com/articles/tms_gene_data/11413869). To run each notebook, please specify the `data_path` variable to be the path of the `tms_gene_data` folder. 
 
 ## Data preprocessing 
 Code: 
