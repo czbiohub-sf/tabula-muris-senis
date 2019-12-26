@@ -4,7 +4,7 @@
 
 For a quick overview checkout the lightining talk slides presented at [SciPy2019](https://github.com/scipy-conference/scipy_proceedings/blob/2019/presentations/lightning/aopisco/20190710_AOPisco_TabulaMurisSenis.pdf)
 
-**This is a resource for the community!** The repo is being continously updated with the code used for the publication - let us know your priorities and we will prioritze that code release!
+**This is a resource for the community!** The repo is being continously updated with the code used for the publication - let us know your priorities and we will prioritize that code release!
 
 ## Data access
 
