@@ -15,7 +15,7 @@ Since October 2019, Tabula Muris Senis data have been made available to all user
 Our ready-to-use with [scanpy](https://scanpy.readthedocs.io) data is available from figshare: https://figshare.com/projects/Tabula_Muris_Senis/64982
 
 ### Online data browsing
-Online versions of the data are available at the [Tabula Muris Senis](tabula-muris-senis.ds.czbiohub.org) portal and thanks to [Max Haeussler](https://github.com/maximilianh) and [Matt Speir](https://github.com/matthewspeir) at the [UCSC Cell Browser](https://cells.ucsc.edu/?ds=tabula-muris-senis) 
+Online versions of the data are available at the [Tabula Muris Senis](https://tabula-muris-senis.ds.czbiohub.org) portal and thanks to [Max Haeussler](https://github.com/maximilianh) and [Matt Speir](https://github.com/matthewspeir) at the [UCSC Cell Browser](https://cells.ucsc.edu/?ds=tabula-muris-senis) 
 
 
 <!--- ## How to cite this dataset--->
