@@ -1,0 +1,1 @@
+The data required to regenerate Fig1 and associated supplements is available from the [S3 Public Bucket](https://s3.console.aws.amazon.com/s3/buckets/czb-tabula-muris-senis/Data-objects/?region=us-west-2)
