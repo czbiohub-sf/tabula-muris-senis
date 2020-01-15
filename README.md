@@ -27,7 +27,7 @@ Interactive browsers for the data are available from the [Tabula Muris Senis](ht
 <!---If you find the Tabula Muris Senis data useful for your research please cite our [publication](https://www.nature.com/articles/s41586-018-0590-4)--->
 
 ## Contact
-If you have questions about the data, you can create an Issue at the project repo on [GitHub](https://github.com/czbiohub/tabula-muris-senis).
+If you have questions about the data, please create a [new Issue](https://github.com/czbiohub/tabula-muris-senis/issues/new).
 
 ## License
 There are no restrictions on the use of data received from the Chan Zuckerberg Biohub, unless expressly identified prior to or at the time of receipt.
