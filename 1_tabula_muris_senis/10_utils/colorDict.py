@@ -1,16 +1,39 @@
 import matplotlib.pyplot as plt
 
 def tissue_color_dict():
-    tissues = ['Bladder','Brain_Myeloid','Brain_Non-Myeloid','Fat','Heart_and_Aorta','Kidney','Large_Intestine','Limb_Muscle','Liver','Lung','Mammary_Gland','Marrow','Pancreas','Skin','Spleen','Thymus','Tongue','Trachea','BAT', 'GAT', 'MAT', 'SCAT']
+    tissues = ['Bladder', 'Brain_Myeloid', 'Brain_Non-Myeloid', 'Fat', 'Heart', 'Kidney', 'Large_Intestine', 'Limb_Muscle', 'Liver', 'Lung', 'Mammary_Gland', 'Marrow', 'Pancreas', 'Skin', 'Spleen', 'Thymus', 'Tongue', 'Trachea', 'Aorta', 'Diaphragm', 'BAT', 'GAT', 'MAT', 'SCAT']
+    tissues.sort()
     
     import matplotlib.colors as pltcolors
-    cmap = plt.cm.get_cmap("tab20b")
-
+    
+    cmap = [plt.cm.get_cmap("tab20b")(0)] # Aorta
+    for i in range(3,5): # BAT, Bladder
+        cmap.append(plt.cm.get_cmap("tab20b")(i))
+    for i in range(6,9): # Brain_Myeloid, Brain_Non_Myeloid, Diaphgram
+        cmap.append(plt.cm.get_cmap("tab20b")(i))
+    for i in range(17,18): # Fat
+        cmap.append(plt.cm.get_cmap("tab20c")(i))
+    for i in range(9,13): # GAT, Heart, Kidney, Large_Intestine
+        cmap.append(plt.cm.get_cmap("tab20b")(i))
+    for i in range(14,20): # Limb_Muscle, Liver, Lung, MAT, Mammary_Gland, Marrow
+        cmap.append(plt.cm.get_cmap("tab20b")(i))
+    for i in range(0,2): # Pancreas, SCAT
+        cmap.append(plt.cm.get_cmap("tab20c")(i))
+    for i in range(4,6): # Skin, Spleen
+        cmap.append(plt.cm.get_cmap("tab20c")(i))
+    for i in range(8,9): # Thymus
+        cmap.append(plt.cm.get_cmap("tab20c")(i))
+    for i in range(10,11): # Tongue
+        cmap.append(plt.cm.get_cmap("tab20c")(i))
+    for i in range(16,17): # Trachea 
+        cmap.append(plt.cm.get_cmap("tab20c")(i))
+    
     color_dict = {}
-    i=0
+    j=0
     for t in tissues:
-        color_dict[t] = pltcolors.to_hex(cmap(i))
-        i+=1/len(tissues)
+        color_dict[t] = pltcolors.to_hex(cmap[j])
+        j+=1
+    
     return color_dict
 
 def plot_colortable(colors, title, sort_colors=True, emptycols=0):
