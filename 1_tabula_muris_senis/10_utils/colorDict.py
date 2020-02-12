@@ -103,3 +103,15 @@ def age_color_dict():
 
     
     return age_color_dict
+
+def method_color_dict():
+    methods = ['droplet','facs']
+    
+    import matplotlib.colors as pltcolors
+    
+    method_color_dict = {}
+    method_color_dict['droplet'] = '#90ee90'
+    method_color_dict['facs'] = '#006400'
+    
+    return method_color_dict
+
