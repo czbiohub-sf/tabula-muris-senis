@@ -1,6 +1,8 @@
 # Aging signiture analysis
 
-We used the **Tabula Muris Senis** dataset to perform a systematic gene-wise study of gene expression changes during aging across different cell types. Stay tuned for the preprint. 
+We used the **Tabula Muris Senis** dataset to perform a systematic gene-wise study of gene expression changes during aging across different cell types. 
+
+Please see more information in the biorxiv preprint Zhang et al. "Mouse Aging Cell Atlas Analysis Reveals Global and Cell Type Specific Aging Signatures" [link](https://www.biorxiv.org/content/10.1101/2019.12.23.887604v2)
 
 - The current document is for the version `revision1`
 - The code for the initial submission is in `./archive_initial_submission`
@@ -65,3 +67,12 @@ Data:
   13) spec_*.se_ref: se of the outside-set meta age coefficient. This is consistent with Supp. Table. 3
   14) spec_*.p_dif: p-value for comparing the within-set meta age coefficient and the outside-set meta age coefficient. This is consistent with Supp. Table. 3
   15) spec_*.fdr_dif: FDR (FDR adjusted p-value) for comparing the within-set meta age coefficient and the outside-set meta age coefficient, with respect to all genes. This is consistent with Supp. Table. 3
+
+## Supp. Tables in the paper
+- Supp. Table 1: Summary of tissue and cell types.
+- Supp. Table 2: Aging-related genes discovered in each tissue-cell type.
+- Supp. Table 3: Genesets identified in the paper.
+  1) global_aging: global aging genes.
+  2) spec_celltype*: genes specific to a cell type.
+  3) spec_func* : genes specific to a functional category.
+  4) spec_tissue* : genes specific to a tissue.
