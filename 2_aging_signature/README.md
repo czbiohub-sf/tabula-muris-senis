@@ -69,7 +69,7 @@ Data:
   15) spec_*.fdr_dif: FDR (FDR adjusted p-value) for comparing the within-set meta age coefficient and the outside-set meta age coefficient, with respect to all genes. This is consistent with Supp. Table. 3
 
 ## Supp. Tables in the paper
-- Supp. Table 1: Summary of tissue and cell types.
+- Supp. Table 1: Summary of tissue and cell types, e.g., the 330 FACS GAGs.
 - Supp. Table 2: Aging-related genes discovered in each tissue-cell type.
 - Supp. Table 3: Genesets identified in the paper.
   1) global_aging: global aging genes.
