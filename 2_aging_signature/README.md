@@ -9,7 +9,7 @@ Please see more information in the biorxiv preprint Zhang et al. "Mouse Aging Ce
 
 ## Data access
 
-The data can be downloaded at [tms_gene_data](https://figshare.com/account/projects/64982/articles/12827615) (the name in the link is `tms_gene_data_rv1`). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder. 
+The data can be downloaded at [tms_gene_data](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615) (the name in the link is `tms_gene_data_rv1`). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder. 
 
 ## Datasets
 Processed data: 
