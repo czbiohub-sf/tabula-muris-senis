@@ -203,6 +203,21 @@ def compute_aging_score_model(gene_list_up, gene_list_down):
         
     return df_model
 
+def compute_aging_score_model_qw(adata, gene_list_up, gene_list_down):
+    
+    gene_list =  gene_list_up + gene_list_down
+    df_model = pd.DataFrame(index = gene_list, columns=['coef'], data=0)
+    
+    temp_X = adata[:, gene_list].X.toarray()
+    v_range = np.quantile(temp_X, 0.95, axis=0) - np.quantile(temp_X, 0.05, axis=0)
+    df_model['coef'] = 1/ v_range.clip(min=0.1)
+    df_model.loc[gene_list_up, 'coef'] = df_model.loc[gene_list_up, 'coef'] \
+                                            / df_model.loc[gene_list_up, 'coef'].sum()
+    df_model.loc[gene_list_down, 'coef'] = -df_model.loc[gene_list_down, 'coef'] \
+                                            / df_model.loc[gene_list_down, 'coef'].sum()
+
+    return df_model 
+
 # def compute_aging_score_model(adata, gene_list_up, gene_list_down, option='equal_weight', verbose=False):
 #     
 #     if option not in ['equal_weight', 'quantile_weight']: 
