@@ -2,14 +2,14 @@
 
 We used the **Tabula Muris Senis** dataset to perform a systematic gene-wise study of gene expression changes during aging across different cell types. 
 
-Please see more information in the biorxiv preprint Zhang et al. "Mouse Aging Cell Atlas Analysis Reveals Global and Cell Type Specific Aging Signatures" [link](https://www.biorxiv.org/content/10.1101/2019.12.23.887604v2)
+Please see more information in the biorxiv preprint Zhang et al. "Mouse Aging Cell Atlas Analysis Reveals Global and Cell Type Specific Aging Signatures" [link](https://elifesciences.org/articles/62293)
 
-- The current document is for the version `revision1`
+- The current document is for the version `eLife final version`
 - The code for the initial submission is in `./archive_initial_submission`
 
 ## Data access
 
-The data can be downloaded at [tms_gene_data](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615) (the name in the link is `tms_gene_data_rv1`). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder. 
+The data can be downloaded at [tms_gene_data](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615) (the name in the link is `TMS gene data (final)`). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder. 
 
 ## Datasets
 Processed data: 
