@@ -2,19 +2,20 @@
 
 We used the **Tabula Muris Senis** dataset to perform a systematic gene-wise study of gene expression changes during aging across different cell types. 
 
-Please see more information in the paper Zhang et al. "Mouse Aging Cell Atlas Analysis Reveals Global and Cell Type Specific Aging Signatures" [link](https://elifesciences.org/articles/62293)
+Please see more information in the paper Zhang et al. "Mouse Aging Cell Atlas Analysis Reveals Global and Cell Type-Specific Aging Signatures" [link](https://elifesciences.org/articles/62293)
 
-- The current document is for the version `eLife final version`
+**Versions**
+- The current document is for the version `final`
 - The document for the RV1 version is in `./archive_revision1`
 - The document and code for the initial submission is in `./archive_initial_submission`
 
 ## Data access
 
-The data can be downloaded at [tms_gene_data](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615) (the name in the link is `TMS gene data (final)`). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder. 
+The full data to reproduce all results can be downloaded at [tms_gene_data](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder in your local computer. 
 
 **Quick resources:** 
-- DGE results for significant genes in each tissue-cell type ([link](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615?file=27856758)). The results for each tissue-cell type is organized in a separate file. Use `coef (age.logFC)` for the age coefficients, `pval (age.H_p)` for the significance p-value, and `fdr (based on age.H_p)` for the corresponding FDR. 
-- Genes and coefficients for the aging score ([link](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615?file=27856761)). Computing a weighed sum using the weights provided in the file on the log-transformed single-cell data should give the cell-level aging score. Consider using the [scanpy.tl.score_genes](https://scanpy.readthedocs.io/en/stable/api/scanpy.tl.score_genes.html) function for a better removal of background expression. 
+- DGE results for significant genes in each tissue-cell type ([link](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615?file=27856758)). The results for each tissue-cell type is organized in a separate file. Please use `"coef (age.logFC)"` for the age coefficients, `"pval (age.H_p)"` for the significance p-value, and `"fdr (based on age.H_p)"` for the corresponding FDR. Also, if you need the SE for the age coefficients, please use the column `"coef.se (age.logFC/age.logFC_z)"` instead of computing it from `"pval (age.H_p)"` (Please see the Differential gene expression (DGE) testing section below for the difference).
+- Genes and coefficients for the aging score ([link](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615?file=27856761)). Computing a weighed sum using the weights provided in the file on the log-transformed single-cell data should give the cell-level aging score. Also consider using the [scanpy.tl.score_genes](https://scanpy.readthedocs.io/en/stable/api/scanpy.tl.score_genes.html) function for a better correction of background expression. 
 
 ## Datasets
 Processed data: 
