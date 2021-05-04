@@ -1,4 +1,4 @@
-# Aging signiture analysis
+# Aging signature analysis
 
 We used the **Tabula Muris Senis** dataset to perform a systematic gene-wise study of gene expression changes during aging across different cell types. 
 
