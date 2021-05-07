@@ -13,7 +13,7 @@ Please see more information in the paper Zhang et al. "Mouse Aging Cell Atlas An
 
 The full data to reproduce all results can be downloaded at [tms_gene_data](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615). To run each notebook, please specify the `DATA_PATH` variable to be the path of the `tms_gene_data` folder in your local computer. 
 
-**Quick resources:** 
+## Quick resources 
 - Significant aging-related genes for each tissue-cell type ([link](https://figshare.com/articles/dataset/tms_gene_data_rv1/12827615?file=27856758)). 
 
   The results are organized as a separate file for each tissue-cell type. Please use `"coef (age.logFC)"` for the age coefficients, `"pval (age.H_p)"` for the significance p-value, and `"fdr (based on age.H_p)"` for the corresponding FDR. Also, if you need the standard error for the age coefficients, please use the column `"coef.se (age.logFC/age.logFC_z)"` instead of computing it from `"pval (age.H_p)"` (Please see the Differential gene expression (DGE) testing section below for the difference).
